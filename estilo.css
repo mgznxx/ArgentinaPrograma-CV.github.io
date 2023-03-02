@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+}
+
+body {     
+    
+    background-image: linear-gradient(-225deg, #657497 0%, #87A7D9 50%, #DEF3F8 100%);
+
+}
+ 
+/*---------------------- Boton ir al menu ----------------------*/
+
+.container-btn {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-top-st {  
+     position: relative;
+     top: 0px;
+     left: 485px;
+    
+}
+
+.btn-top-tr {  
+    position: relative;
+    top: 0px;
+    left: 1120px;
+   
+}
+
+.btn-top-ct {  
+    position: relative;
+    top: 0px;
+    left: 1000px;
+   
+}
+
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+
+}
+
+/*---------------- Hedear -----------------*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+     
+}
+
+header .logo {
+    color: #f5f3ef;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0 10px;     
+    font-weight: bold;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+     
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: #f5f3ef;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+}
+
+header .navbar li a:hover {
+    color: #5e3f70;
+}
+
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 100px;
+
+}
+
+.contenido .tituloBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.contenido .tituloBox h2 {
+    font-size: 4em;
+    color: #5e3f70;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+
+.contenido .tituloBox p {
+    font-size: 1.8em;
+    line-height: 1;
+    color: #f8f7f5;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+
+.contenido .imgBox img {
+    width: 600px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #bfb2c7;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*  -------------------------- Estudios ----------------------------- */
+
+section .estudios {
+    height: 80%;
+}
+
+.estudios {
+    background-color: #bd827f;
+    flex-direction: column;
+}
+
+.tit-estudios {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 70px 0 30px 0;
+    color: #f8f7f5;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ------------------------- Card ----------------------------*/
+
+section .estudios{
+    width: 100%;
+    height: 50VH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+div .container{
+    width: 50%;
+    display: flex;
+    max-width: 1100px;
+    padding: 0;
+}
+
+div .card{
+   width: 100%; 
+   margin: 20px;
+   border-radius: 6px;
+   overflow: hidden;
+   background: #37314d;
+   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+   cursor: default;
+   transition: all 400ms ease;
+}
+ 
+div .card img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+div .card .contenido{
+    padding: 15px;
+    text-align: center;
+    flex-direction: column;
+}
+div .card .contenido p{
+    line-height: 1.5em;
+    color: #949292;
+    padding: 20px;
+}
+
+div .card .contenido h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #9180f3;
+}
+
+ 
+
+
+  /* -------------------------- Trabajos ------------------ */
+
+.trabajos {
+    background-color: #bc5764;
+    color: #f8f7f5;
+}
+
+.tit-trabajo
+    {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 70px 0 90px 0;
+}
+
+h4 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
+}
+
+.trabajos-row {
+    display: flex;
+}
+
+.large {
+    padding-bottom: 10px;
+}
+
+.trabajos-row-experience,
+.trabajos-row-me {
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 90px;
+}
+
+ 
+
+
+/* --------------------- CANTACTO ----------------------*/
+
+
+.contacto .contacto {
+    background-color: #863a53;
+	padding: 50px 0 70px 0;
+    width: 70%;
+}
+
+.container {
+    margin-right: 150px;
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 33%;
+	text-align: center;
+    margin-right: 36px;
+    padding-bottom: 100px;
+    
+}
+
+.contact-row-icon img {
+	height: 80px;
+    
+}
+
+.tit-contacto {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 70px 0 60px 0;
+
+}
+
+/*-------- FORMULARIO --------------*/
+
+.fondo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.txtFormulario {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.control {
+    width: 350px;
+    height: 36px;
+    margin: 6px;
+    background-color: rgb(190, 202, 212);
+}
+.control-mensaje {
+    width: 350px;
+    height: 70px;
+    margin: 6px;
+    background-color: rgb(190, 202, 212);
+    
+}
+
+form h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    padding-top: 50px 0 70px 0;
+
+}
+
+div .container-fluid {
+    z-index: 125;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.btn-for {
+    display: inline;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: #7e7d7c;
+    color: #dbdad8;
+    cursor: pointer;
+    border-color: #7e7d7c;
+}
+
+.btn-for:hover {
+    background-color: #37314d;
+    color: white;
+}
+
+.btn-formulario {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    
+}
+
+
+.invalid {
+    border: solid 1px red;
+    box-shadow: 0 0 10px red;
+  }
+  .error {
+    color: red;
+    display: block;
+  }
+  .txtCampo {
+    font-size: 10px;
+  }
+
+  /* ---------------------- Footer ------------------ */
+
+  footer {
+    background-color: #622c4b;
+    padding-top: 10px 0 0px 0;
+
+  }
+
+  .foot-foot {
+    margin-top: 10px;
+    padding-top: 70px;
+  }
+
+  #section .foot {
+    background-color: #622c4b;
+    margin: 100px;
+  }
+
+
+  #section .foot {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0%;
+
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: #f8f7f5;
+}
+
+.redesSociales {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px 30px;
+    list-style: none;
+}
+
+.redesSociales li {
+    padding: 0 10px 15px 0;
+     
+}
+.redesSociales li a {
+    color: #f8f7f5;
+    font-size: 1.5em;
+    transition: 0.3s;
+    padding-top: 0px;
+}
+
+.redesSociales li a:hover {
+    color: #32044d;
+}
